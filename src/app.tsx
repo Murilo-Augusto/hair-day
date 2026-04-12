@@ -2,6 +2,7 @@ import { TrashIcon, UserSquareIcon } from "@phosphor-icons/react";
 import { Button } from "./components/button";
 import { ButtonIcon } from "./components/button-icon";
 import { TextInput } from "./components/text-input";
+import { TimeSelect } from "./components/time-select";
 
 export function App() {
   return (
@@ -11,6 +12,8 @@ export function App() {
       <TextInput icon={UserSquareIcon} placeholder="Nome do cliente" />
 
       <ButtonIcon icon={TrashIcon} />
+
+      <TimeSelect value="09:00" />
     </div>
   );
 }
