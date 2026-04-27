@@ -11,6 +11,7 @@ export function TimeSelect({ value, onSelect, ...props }: TimeSelectProps) {
 
   return (
     <button
+      type="button"
       data-slot="time-select"
       data-selected={isSelected}
       className={cn(
